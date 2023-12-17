@@ -1,0 +1,71 @@
+/* THIS STYLESHEET IS INTENDED TO BE SHARED ACROSS ALL PAGES, SO INCLUDES THE NAV AND FONTS. */
+
+@font-face {
+  font-family: rethinkSans;
+  src: url("/fonts/Rethink_Sans/static/RethinkSans-Regular.ttf");
+}
+
+
+/* SETTINGS FOR MY NAV */
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+  background-color: #686464;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #bd5800;
+}
+
+.topnav a.active {
+  background-color: #0065bd;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* END OF NAV */
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the site */
+body {
+  font-family: rethinkSans;
+}
+
+h1{
+  font-size: 4vw;
+  color: black;
+}
+
+h2{
+  font-size: 1vw;
+  color: black;
+}
+
+p{
+  font-size: 1.5vw;
+  color:black
+}
+
+
+/* end of style wide styles */
+
