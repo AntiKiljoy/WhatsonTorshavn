@@ -215,12 +215,13 @@ section {
   }
 
   #places {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: center; /* Center items vertically on smaller screens */
+    flex-direction: column; /* Stack items vertically on smalle */
+    align-items: center; /* Center items vertically */
   }
   
   .placesHolder {
     margin-right: 0; /* Remove margin on smaller screens */
+    border: 0.2em solid #bd5800;
   }
 
 }

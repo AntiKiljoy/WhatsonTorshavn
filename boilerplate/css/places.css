@@ -19,11 +19,11 @@ img {
 
 .placeName, .detailsBox, .mainText {
     position: relative;
-    background-color: white; /* Adjust background color to your preference */
-    padding: 20px; /* Adjust padding as needed */
+    background-color: white;
+    padding: 20px;
     box-sizing: border-box;
-    width: 70%; /* Adjust the width as needed */
-    margin: 10px 0; /* Center the elements vertically */
+    width: 70%;
+    margin: 10px auto; /* Center the elements horizontally */
 }
 
 .placeName {
@@ -31,17 +31,46 @@ img {
     text-align: center;
 }
 
-.detailsBox h2, .mainText p {
+.detailsBox h2,.mainText p {
     margin: 0;
-    text-align: left; 
+    text-align: left;
 }
+
+.locationButton {
+    position: relative;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #BD5800;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.2em;
+    margin-top: 1%;
+}
+
+.locationButton img {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 8px;
+    margin: 0;
+}
+
+
 
 @media screen and (max-width: 600px) {
     .photoCover {
-        width: 90%; /* Adjust the width for smaller screens */
+        width: 100%; /* Adjust the width for smaller screens */
     }
 
     .placeName, .detailsBox, .mainText {
         padding: 0px; /* Adjust padding for smaller screens */
     }
+
+
+    .locationButton {
+        margin-left: 0; 
+        width: 100%; 
+        margin-top: 10%;
+}
 }
