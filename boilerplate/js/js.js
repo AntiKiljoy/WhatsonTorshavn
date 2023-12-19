@@ -4,6 +4,7 @@
  **/
 console.log('Success: JavaScript from js/js.js running!')
 
+//called for the change of my nav repsonsive. Meaning when it gets smaller, it will change to the hamburger menu.
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -13,7 +14,9 @@ function myFunction() {
     }
   }
 
-    function openSvartafoss() {
+// These fucntions are excuted, when onclick="open place name here()" has been clicked. So, when on click, it will look for the relevant place, and excute what is inside it.
+//What is inside, is window.open (oepn a new window), to the link attached. In my case, it will open google mpas to my places location
+  function openSvartafoss() {
     window.open(`https://www.google.com/maps/place/Svartafoss+Waterfall/@62.0261447,-6.7833135,17z/data=!4m6!3m5!1s0x48bc2e22784731b5:0x7347831d2c83f913!8m2!3d62.0261411!4d-6.7807392!16s%2Fg%2F11cn6d1bhh?entry=ttu`, '_blank');
   }
 
