@@ -7,7 +7,8 @@ section {
 /* home page styling */
 #home {
   height: 100vh;
-  background-image: url("/images/torshavnSnowy.jpg");
+  background-image: url("/images/torshavnSnowy.webp ");
+  max-width: 100%;
   background-size: cover;
 }
 #home .landingText {
@@ -29,7 +30,9 @@ section {
 #home .bottom-left-text h1 {
   margin-bottom: 2%; /* Adjust the margin-bottom as needed */
 }
-  
+
+
+
 /* end home page styling */
 
 
@@ -109,6 +112,7 @@ section {
   justify-content: space-around;
   align-items: center;
 }
+
 
 .place {
   text-align: center;
@@ -222,6 +226,7 @@ section {
   .placesHolder {
     margin-right: 0; /* Remove margin on smaller screens */
     border: 0.2em solid #bd5800;
+    margin-bottom: 1%;
   }
 
 }

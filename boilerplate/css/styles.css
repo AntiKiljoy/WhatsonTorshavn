@@ -1,9 +1,13 @@
 /* THIS STYLESHEET IS INTENDED TO BE SHARED ACROSS ALL PAGES, SO INCLUDES THE NAV AND FONTS. */
 
 @font-face {
-  font-family: rethinkSans;
-  src: url("/fonts/Rethink_Sans/static/RethinkSans-Regular.ttf");
+  font-family: 'rethinkSans';
+  src: url('/fonts/Rethink_Sans/static/RethinkSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 
 
 /* SETTINGS FOR MY NAV */
