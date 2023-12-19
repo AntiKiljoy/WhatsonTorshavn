@@ -132,7 +132,7 @@ section {
   padding: 10px;
   position: relative;
   overflow: hidden; 
-  margin-bottom: 1px; 
+  margin-bottom: 1%; 
 }
 
 .placesHolder .place {
@@ -220,6 +220,7 @@ section {
   #places {
     flex-direction: column; /* Stack items vertically on smalle */
     align-items: center; /* Center items vertically */
+    height: 140vh;
   }
   
   .placesHolder {
