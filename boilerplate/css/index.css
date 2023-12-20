@@ -229,5 +229,8 @@ section {
     margin-bottom: 1%;
   }
 
+  #about h1 p, #safety h1 p{
+   padding-left: 1%; 
+  }
 }
 
